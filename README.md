@@ -1,9 +1,13 @@
-## Audio visualizer
-
-Audio visualizer consists of visualizing analog signals from a microphone on a browser using react dom.
-
 ## How to starting
 
+1. server
+```bash
+cd server
+pip install -r requirement.txt
+python app.py
+```
+
+2. app
 ```bash
 npm install
 npm start

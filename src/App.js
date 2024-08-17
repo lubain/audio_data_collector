@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AudioVisualizer from './AudioVisualizer';
+import AudioRecord from './AudioRecord';
 import './App.css';
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         Start
       </button></div>}
       {started && <AudioVisualizer onProcessError={handleProcessError} />}
+      {started && <AudioRecord onProcessError={handleProcessError} />}
     </div>
   );
 };
